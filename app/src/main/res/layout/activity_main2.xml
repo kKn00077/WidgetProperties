@@ -26,6 +26,7 @@
         android:textSize="20sp"
         android:layout_margin="20dp"
         android:clickable="false"
+        android:background="#d9f7ff"
         android:rotation="60"/>
 
     <TextView
