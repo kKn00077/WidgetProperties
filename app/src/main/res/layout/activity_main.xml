@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kn0077.kr.hs.emirim.widgetproperties.MainActivity"
+    android:orientation="vertical"
+    >
+    <!--
+    LinearLayout - 선형 화면, 어떤 방법으로 정렬할지 정하는 것.(가로나 세로)
+
+    orientation
+    ex) 위젯을  vertical(세로)방향으로 정렬하겠다
+
+    -->
+
+    <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/but_str1"
+       android:textSize="20sp"
+       android:background="#d5dffd"
+       android:textColor="#8aa5fd"
+       android:padding="15dp"
+       android:layout_marginLeft="30dp"
+       android:layout_marginTop="50dp"
+        android:visibility="visible"
+        />
+    <!-- visibility -> 위젯을 보이게 할건지 아닌지의 여부를 결정-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/but_str1"
+        android:textSize="20sp"
+        android:background="#d5dffd"
+        android:textColor="#8aa5fd"
+        android:padding="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/but_str1"
+        android:textSize="20sp"
+        android:background="#d5dffd"
+        android:textColor="#8aa5fd"
+        android:padding="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        />
+
+</LinearLayout>
